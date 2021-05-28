@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+
+    <div class="card">
+        <form id="input_form" action="#">
+            <div class="input_container">
+                <h3>Task List</h3>
+                <input type="text" name="task" id="task" placeholder="Enter task">
+            </div>
+
+            <button class="btn" action="submit">ADD TASK</button>
+        </form>
+    </div>
+
+    <div class="card">
+        <div class="input_container">
+            <h3>Task List</h3>
+            <input type="text" name="filter" id="filter" placeholder="Filter task">
+            <ul class="tasks">
+                <!-- <li class="task">
+                    <span>Hello</span>
+                    <a href="#" class="icon">
+                        <i class="fas fa-trash"></i>
+                    </a>
+                </li> -->
+            </ul>
+        </div>
+
+        <button id="clearBtn" class="btn1" type="button">CLEAR TASKS</button>
+    </div>
+
+    <script src="https://kit.fontawesome.com/b71a914b86.js" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+
+</body>
+
+</html>
